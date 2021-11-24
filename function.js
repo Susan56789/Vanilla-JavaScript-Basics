@@ -14,3 +14,8 @@ function multiply(a,b){
 }
 console.log(multiply(6,5));
 console.log(multiply(3,7));
+
+let myfunction = function(message, firstname){
+    return message + ' ' + firstname;
+}
+console.log(myfunction('Good afternoon', 'Mary'));
