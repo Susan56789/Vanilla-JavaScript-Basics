@@ -19,3 +19,17 @@ let myfunction = function(message, firstname){
     return message + ' ' + firstname;
 }
 console.log(myfunction('Good afternoon', 'Mary'));
+
+
+// object person with different values
+let person = {
+    name:'Susan',
+    age:22,
+    Student: true
+};
+
+function incrementAge(person){
+    person.age++;
+}
+incrementAge(person);
+console.log(person);
